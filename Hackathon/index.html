@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenStreetMap Budget Planner</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>made by codesquad</h1>
+        
+        <form id="budgetForm">
+            <label for="totalBudget">Total Budget (Rs.):</label>
+            <input type="number" id="totalBudget" placeholder="Enter your total budget" required>
+            
+            <label for="hotelBudget">Hotel Budget (% of total):</label>
+            <input type="number" id="hotelBudget" placeholder="e.g. 50" required>
+
+            <label for="shopBudget">Shop Budget (% of total):</label>
+            <input type="number" id="shopBudget" placeholder="e.g. 50" required>
+            
+            <button type="submit">Plan My Budget</button>
+        </form>
+
+        <div id="results">
+            <h2>Recommendations</h2>
+            <div id="hotels">
+                <h3>Hotels</h3>
+                <ul id="hotelList"></ul>
+            </div>
+            <div id="shops">
+                <h3>Shops</h3>
+                <ul id="shopList"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
