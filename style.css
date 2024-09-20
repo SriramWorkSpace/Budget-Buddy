@@ -11,8 +11,7 @@ body {
     height: 100vh;
     overflow: hidden;
 
-    /* Add background image */
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/826/524/865/3-316-16-9-aspect-ratio-s-sfw-wallpaper-preview.jpg'); /* Replace with your image URL */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/826/524/865/3-316-16-9-aspect-ratio-s-sfw-wallpaper-preview.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -25,8 +24,8 @@ body {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15px); /* Blur effect */
-    -webkit-backdrop-filter: blur(45px); /* Safari support */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(45px); 
     border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
 }
@@ -36,10 +35,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
     margin-bottom: 20px;
     
-    /* Gradient Text */
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Color of the gradient */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Makes text transparent to show the gradient */
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
 }
